@@ -1,0 +1,111 @@
+/* PAGE BACKGROUND (important for contrast) */
+body {
+  /* background: linear-gradient(135deg, #F0FDFA, #CCFBF1); */
+  background: linear-gradient(135deg , #134E5E ,   );
+}
+
+/* container for all cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+/* product card */
+.card {
+  height: 450px;
+  width: 260px;
+  background: linear-gradient(180deg, #ECFEFF, #D1FAE5);
+  text-align: center;
+  border-radius: 16px;
+  padding: 15px;
+  box-shadow: 0 12px 28px rgba(13, 148, 136, 0.28);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+/* hover effect */
+.card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 22px 45px rgba(13, 148, 136, 0.45);
+}
+
+/* image styling */
+.card img {
+  height: 260px;
+  width: 180px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin-top: 10px;
+  background: #FFFFFF;
+  padding: 10px;
+}
+
+/* description text */
+.card p {
+  font-size: 14px;
+  color: #0F172A;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+/* price */
+.card h3 {
+  margin-top: 8px;
+  font-size: 18px;
+  color: #065F46;
+  font-weight: 700;
+}
+
+/* button */
+.card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #0F766E, #14B8A6);
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(13, 148, 136, 0.5);
+}
+.card {
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(13, 148, 136, 0.25);
+}
+.card img {
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+.card button {
+  margin-top: 12px;
+  padding: 9px 18px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #0F766E, #14B8A6);
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.card button:active {
+  transform: scale(0.97);
+}
+.card h3 {
+  color: #0F766E;
+}
+h1 {
+  margin: 30px 40px;
+  color: #0F172A;
+  font-weight: 600;
+}
