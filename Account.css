@@ -1,0 +1,65 @@
+/* Base styling for the profile container */
+.profile {
+  max-width: 420px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-image: linear-gradient(pink , beige);
+  border:black;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-family: "Segoe UI", "Inter", sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+/* Profile image */
+.profile img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Name styling */
+.profile h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* General text */
+.profile p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Details section */
+.profile .details {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: black;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.profile .details span {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+  color: #1a73e8;
+}
+
+/* Salary badge */
+.profile .salary {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.4rem 0.9rem;
+  background-color: #1a73e8;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
